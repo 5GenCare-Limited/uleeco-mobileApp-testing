@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="automation-5gencare-mobile " thread-count="2"
+	parallel="tests">
+	<parameter name="isBaseImage" value="false" />
+	<parameter name="expected" value="0.15" />
+	<parameter name="flavour" value="salus" />
+	<parameter name="language" value="fr" />
+	<!-- <listeners> <listener class-name="com.omi.util.TestListener"></listener> 
+		</listeners> -->
+	<test name="Global Functions" group-by-instances="true">
+		<parameter name="deviceName" value="Vivo Y51A" />
+		<parameter name="udid" value="0c2aa304" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="11" />
+		<parameter name="appPackage"
+			value="com.salus.eu.smarthome.dev" />
+		<parameter name="appActivity"
+			value="com.example.smart_home.MainActivity" />
+
+		<groups>
+			<run>
+
+				<include name="salus" />
+			</run>
+		</groups>
+
+		<classes>
+			<!-- <class name="com.gencare.signin.tests.SignInNegativeTest" /> -->
+			<class name="com.gencare.signin.tests.ForgotPasswordTest" />
+			
+			<!-- <class name="com.gencare.signin.tests.SignInTest"/> -->
+		</classes>
+
+	</test>
+</suite>

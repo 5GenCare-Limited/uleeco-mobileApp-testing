@@ -1,0 +1,5 @@
+gmail_username=avunuri.akhil19@gmail.com
+gmail_password=akhil9866
+gmail_port=587
+gmail_from=avunuri.akhil19@gmail.com
+to=sharath.mudimadugula@b2btesters.com

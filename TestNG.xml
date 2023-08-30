@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automation-5gencare-mobile " thread-count="1" parallel="tests">
+	<parameter name="isBaseImage" value="false" />
+	<parameter name="expected" value="0.15" />
+	<parameter name="flavour" value="salus" />
+	<parameter name="language" value="en" />
+	<parameter name="platform" value="android" />
+	<!-- <listeners> <listener class-name="com.omi.util.TestListener"></listener> 
+		</listeners> -->
+		<parameter name="clientApiKey" value="005a889b-ee2d-4305-9894-5eb5c832a13b" />
+	<parameter name="deviceName" value="Vivo 2141" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="platformVersion" value="13" />
+	<parameter name="udid" value="3083184252002VE" />
+	<parameter name="appPackage" value="com.salus.eu.smarthome" />
+	<parameter name="appActivity" value="com.example.smart_home.MainActivity" />
+
+
+	<test name="Forgot Password Test">
+		<classes>
+			<class name="com.gencare.tests.ForgotPasswordTest" />
+		</classes>
+	</test>
+
+	<test name="Add A Photo Test">
+		<classes>
+			<class name="com.gencare.tests.AddAPhotoTest" />
+		</classes>
+	</test>
+
+	<test name="Alerts Test">
+		<classes>
+			<class name="com.gencare.tests.AlertsTest" />
+		</classes>
+	</test>
+
+	<test name="Categories List Test">
+		<classes>
+			<class name="com.gencare.tests.CategoriesListTest" />
+		</classes>
+	</test>
+
+	<test name="Change Password Test">
+		<classes>
+			<class name="com.gencare.tests.ChangePasswordTest" />
+		</classes>
+	</test>
+
+	<test name="Existing Users DashBoard Test">
+		<classes>
+			<class name="com.gencare.tests.ExistingUsersDashBoardTest" />
+		</classes>
+	</test>
+
+	<test name="Demo Test">
+		<classes>
+			<class name="com.gencare.tests.DemoTest" />
+		</classes>
+	</test>
+
+	<test name="View Profile Countries and Languages Test">
+		<classes>
+			<class name="com.gencare.tests.ViewProfileCountriesAndLanguagesTest" />
+		</classes>
+	</test>
+
+	<test name="View Profile Test">
+		<classes>
+			<class name="com.gencare.tests.ViewProfileTest" />
+		</classes>
+	</test>
+
+	<test name="Group List Test">
+		<classes>
+			<class name="com.gencare.tests.GroupListTest" />
+		</classes>
+	</test>
+
+	<test name="Help Test">
+		<classes>
+			<class name="com.gencare.tests.HelpTest" />
+		</classes>
+	</test>
+
+	<test name="Landing Test">
+		<classes>
+			<class name="com.gencare.tests.LandingTest" />
+		</classes>
+	</test>
+
+	<test name="LogOut Test">
+		<classes>
+			<class name="com.gencare.tests.LogOutTest" />
+		</classes>
+	</test>
+
+	<test name="New Users DashBoard Test">
+		<classes>
+			<class name="com.gencare.tests.NewUsersDashBoardTest" />
+		</classes>
+	</test>
+
+	<test name="Scan My Home Test">
+		<classes>
+			<class name="com.gencare.tests.ScanMyHomeTest" />
+		</classes>
+	</test>
+
+	<test name="SignIn Negative Test">
+		<classes>
+			<class name="com.gencare.tests.SignInNegativeTest" />
+		</classes>
+	</test>
+
+	<test name="SignIn Test">
+		<classes>
+			<class name="com.gencare.tests.SignInTest" />
+		</classes>
+	</test>
+
+	<test name="SignUp Assertions Test">
+		<classes>
+			<class name="com.gencare.tests.SignUpAssertionsTest" />
+		</classes>
+	</test>
+
+	<test name="SignUp Test">
+		<classes>
+			<class name="com.gencare.tests.SignUpTest" />
+		</classes>
+	</test>
+
+	<test name="SignUp Negative Test">
+		<classes>
+			<class name="com.gencare.tests.SignUpNegativeTest" />
+		</classes>
+	</test>
+
+	<test name="Signup Negative Simple Password Test">
+		<classes>
+			<class name="com.gencare.tests.SignupNegativeSimplePasswordTest" />
+		</classes>
+	</test>
+
+	<test name="SignUp Email Confirmation Code Test">
+		<classes>
+			<class name="com.gencare.tests.SignUpEmailConfirmationCodeTest" />
+		</classes>
+	</test>
+
+	<test name="SignUp Countries and Languages Validation Test">
+		<classes>
+			<class name="com.gencare.tests.SignUpCountriesAndLanguagesValidationTest" />
+		</classes>
+	</test>
+
+	<test name="Data Collection Test">
+		<classes>
+			<class name="com.gencare.tests.DataCollectionTest" />
+		</classes>
+	</test>
+
+	<test name="No Internet Popup Test">
+		<classes>
+			<class name="com.gencare.tests.NoInternetPopupTest" />
+		</classes>
+	</test>
+
+	<test name="Location Test">
+		<classes>
+			<class name="com.gencare.tests.LocationTest" />
+		</classes>
+	</test>
+
+	<test name="Grid Reordering Test">
+		<classes>
+			<class name="com.gencare.tests.GridReorderingTest" />
+		</classes>
+	</test>
+
+	<test name="Legal Test">
+		<classes>
+			<class name="com.gencare.tests.LegalTest" />
+		</classes>
+	</test>
+
+	<test name="Users And Permissions Test">
+		<classes>
+			<class name="com.gencare.tests.UsersAndPermissionsTest" />
+		</classes>
+	</test>
+
+	<test name="My Status Test">
+		<classes>
+			<class name="com.gencare.tests.MyStatusTest" />
+		</classes>
+	</test>
+
+</suite>
